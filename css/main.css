@@ -28,4 +28,34 @@ ul {
 
 a {
   text-decoration: none;
+  color: #0074d9;
+}
+
+li:hover {
+  background-color: #0074d9;
+}
+
+a:hover {
+  color: #fff;
+}
+
+li {
+  display: inline-block;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 60em) {
+
+  ul {
+    text-align: right;
+  }
+
 }
