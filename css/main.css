@@ -17,10 +17,6 @@ html {
   box-sizing: inherit;
 }
 
-.unit {
-  text-align: center;
-}
-
 ul {
   padding: 0;
   margin: 0;
@@ -45,6 +41,7 @@ li {
 
 header {
   background-color: #e2e2e2;
+  text-align: center;
 }
 
 body {
@@ -58,6 +55,8 @@ body {
     text-align: right;
   }
 
-  header {
+  h1 {
+    text-align: left;
   }
+
 }
